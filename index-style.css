@@ -1,8 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
@@ -10,7 +12,7 @@ a {
 }
 
 header {
-    background: #98fafa;
+    background: #5dc3e2;
 }
 
 .cabecalho {
@@ -18,12 +20,14 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
+    width: 100%;
 }
 
 .form input {
     padding: 3px 6px;
     text-align: center;
     border: 1px solid #757575;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .form button {
@@ -32,6 +36,7 @@ header {
     cursor: pointer;
     background-color: #757575;
     transition: 300ms;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .form button:hover {
@@ -41,6 +46,7 @@ header {
 
 .cabecalho ul {
     display: flex;
+    width: 100%;
 }
 
 .cabecalho img {
@@ -55,6 +61,7 @@ header {
 }
 
 .cabecalho li a {
+    /* display: inline-block; */
     transition: 300ms;
 }
 
@@ -63,14 +70,23 @@ header {
 }
 
 #filtro {
-    background: #E0FFFF;
+    background: #a8ddf1;
+}
+
+#filtro a {
+    transition: 300ms;
+}
+
+#filtro a:hover {
+    color: rgb(172, 15, 15);
 }
 
 .livro {
-    background: #E0FFFF;
+    background: #a8ddf1;
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
+    width: 100%;
 }
 
 .livro div {
@@ -81,8 +97,17 @@ header {
     max-width: 200px;
 }
 
+.livro p {
+    text-align: center;
+    border: 1px solid none;
+    background-color: rgb(87, 151, 211);
+    border-radius: 5px 5px 5px 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .camiseta {
-    background: #E0FFFF;
+    background: #a8ddf1;
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
@@ -96,8 +121,17 @@ header {
     max-width: 200px;
 }
 
+.camiseta p {
+    text-align: center;
+    border: 1px solid none;
+    background-color: rgb(87, 151, 211);
+    border-radius: 5px 5px 5px 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
 .terco {
-    background: #E0FFFF;
+    background: #a8ddf1;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
@@ -109,6 +143,15 @@ header {
 
 .terco img {
     max-width: 200px;
+}
+
+.terco p {
+    text-align: center;
+    border: 1px solid none;
+    background-color: rgb(87, 151, 211);
+    border-radius: 5px 5px 5px 5px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .rodape {
