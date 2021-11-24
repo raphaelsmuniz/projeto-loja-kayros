@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/loja-kayros.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/loja-kayros.ico" type="image/x-icon" />
     <title>Loja Kayrós</title>
-    <link rel="stylesheet" type="text/css" href="index-style.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="index-style.css" />
+  </head>
+  <body>
     <header>
-        <div class="cabecalho">
-            <img src="./img/logo_kayros-140.png" alt="logoKayros">
-            <nav>
-                <ul>
-                    <li> <a href="index.html">Início</a></li>
-                    <li> <a href="sobre.html">Sobre</a></li>
-                    <li> <a href="cadastro.html">Cadastro</a></li>
-                </ul>
-            </nav>
+      <div class="cabecalho">
+        <a href="index.html">
+            <img src="./img/logo_kayros-140.png" alt="logoKayros" />
+        </a>
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="O que procuras?">
+                <button>Enviar</button>
+            </form>
         </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="">Carrinho</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section class="container">
-            <h2><a href="livros.html">Livros</a></h2>
-                <div class="links-livros">
-                    <a href="livro1-desc.html"><img id="img-capa" src="img/livro_1.png" alt="Livro1"></a>
-                    <span>R$ 29,90</span>
-                    <a href="livro2-desc.html"><img id="img-capa" src="img/livro_2.png" alt="Livro2"></a>
-                    <span>R$ 19,90</span>
-                    <img id="img-capa" src="img/livro_3.png" alt="Livro3">
-                    <span>R$ 15,90</span>
-                </div>
-
-                <h2><a href="camisetas.html">Camisetas</a></h2>
-                <div class="links-camis">
-                    <a href="camiseta1-desc.html"><img id="img-capa" src="img/camiseta_1.png" alt="Camiseta1"></a>
-                    <span>R$ 40,00</span>
-                    <a href="camiseta2-desc.html"><img id="img-capa" src="img/camiseta_2.png" alt="Camiseta2"></a>
-                    <span>R$ 40,00</span>
-                    <img id="img-capa" src="img/camiseta_3.png" alt="Camiseta_3">
-                    <span>R$ 40,00</span>
-                </div>
-
-                <h2><a href="tercos.html">Terços</a></h2>
-                <div class="links-tercos">
-                    <a href="terco1-desc.html"><img id="img-capa" src="img/terco_1.png" alt="Terço1"></a>
-                    <span>R$ 6,50</span>
-                    <a href="terco2-desc.html"><img id="img-capa" src="img/terco_2.png" alt="Terço2"></a>
-                    <span>R$ 7,00</span>
-                    <img id="img-capa" src="img/terco_3.png" alt="Terço3">
-                    <span>R$ 15,00</span>
-                </div>    
-        </section>
+      <h2 id="filtro"><a href="livros.html">Livros</a></h2>
+      <h2 id="filtro"><a href="camisetas.html">Camisetas</a></h2>
+      <h2 id="filtro"><a href="tercos.html">Terços</a></h2>
+      <section class="livro">
+        <div>
+          <a href="livro1-desc.html"
+            ><img src="img/livro_1.png" alt="Livro1"
+          /></a>
+          <p>R$ 29,90</p>
+        </div>
+        <div>
+          <a href="livro2-desc.html"
+            ><img src="img/livro_2.png" alt="Livro2"
+          /></a>
+          <p>R$ 19,90</p>
+        </div>
+        <div>
+          <img src="img/livro_3.png" alt="Livro3" />
+          <p>R$ 15,90</p>
+        </div>
+      </section>
+      <section class="camiseta">
+        <div>
+          <a href="camiseta1-desc.html"
+            ><img src="img/camiseta_1.png" alt="Camiseta1"
+          /></a>
+          <p>R$ 40,00</p>
+        </div>
+        <div>
+          <a href="camiseta2-desc.html"
+            ><img src="img/camiseta_2.png" alt="Camiseta2"
+          /></a>
+          <p>R$ 40,00</p>
+        </div>
+        <div>
+          <img src="img/camiseta_3.png" alt="Camiseta_3" />
+          <p>R$ 40,00</p>
+        </div>
+      </section>
+      <section class="terco">
+        <div>
+          <a href="terco1-desc.html"
+            ><img src="img/terco_1.png" alt="Terço1"
+          /></a>
+          <p>R$ 6,50</p>
+        </div>
+        <div>
+          <a href="terco2-desc.html"
+            ><img src="img/terco_2.png" alt="Terço2"
+          /></a>
+          <p>R$ 7,00</p>
+        </div>
+        <div>
+          <img src="img/terco_3.png" alt="Terço3" />
+          <p>R$ 15,00</p>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="rodape">
-            <hr>
-            <nav>
-                <ul>
-                    <li> <a target="_blank" href="https://wa.me/47988192466">Contato</a></li>
-                    <li> <a target="_blank" href="mailto:raphaelnsx@gmail.com">E-mail</a></li>
-                    <li> <p>Horário de atendimento:</p>
-                    <p>Segunda a sexta das 9hs às 18hs.</p></li>
-                </ul>
-            </nav>
-            <img src="./img/forma-pagamento.png" alt="Formas de pagamento">
-        </div>
+      <div class="rodape">
+        <nav>
+          <ul>
+            <li>
+              <a target="_blank" href="https://wa.me/47988192466">Contato</a>
+            </li>
+            <li>
+              <a target="_blank" href="mailto:raphaelnsx@gmail.com">E-mail</a>
+            </li>
+            <li>
+              <p>Horário de atendimento:</p>
+              <p>Segunda a sexta das 9hs às 18hs.</p>
+            </li>
+          </ul>
+        </nav>
+        <img src="./img/forma-pagamento.png" alt="Formas de pagamento" />
+      </div>
     </footer>
-</body>
+  </body>
 </html>

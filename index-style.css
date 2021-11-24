@@ -14,9 +14,33 @@ header {
 }
 
 .cabecalho {
-    margin: 0 auto;
-    position: relative;
-    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.form input {
+    padding: 3px 6px;
+    text-align: center;
+    border: 1px solid #757575;
+}
+
+.form button {
+    padding: 3px 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #757575;
+    transition: 300ms;
+}
+
+.form button:hover {
+    background-color: #3f00d1;
+    color: #FFF;
+}
+
+.cabecalho ul {
+    display: flex;
 }
 
 .cabecalho img {
@@ -27,36 +51,68 @@ header {
 .cabecalho li {
     font-size: 20px;
     list-style: none;
+    padding: 20px;
 }
 
-.container {
+.cabecalho li a {
+    transition: 300ms;
+}
+
+.cabecalho li a:hover {
+    color: rgb(172, 15, 15);
+}
+
+#filtro {
+    background: #E0FFFF;
+}
+
+.livro {
     background: #E0FFFF;
     display: flex;
-    align-items: baseline;
-    /* 9'47 - vídeo flexBox */
+    justify-content: space-evenly;
+    padding: 5px;
 }
 
-.container .links-livros #img-capa {
+.livro div {
+    margin: 15px;
+}
+
+.livro img {
     max-width: 200px;
-    width: auto;
-    /* justify-content: space-around; */
 }
 
-.container .links-livros span {
-    width: 100px;
+.camiseta {
+    background: #E0FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
-.container .links-camis #img-capa {
+.camiseta div {
+    margin: 15px;
+}
+
+.camiseta img {
     max-width: 200px;
-    width: auto;
 }
 
-.container .links-tercos #img-capa {
+.terco {
+    background: #E0FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.terco div {
+    margin: 15px;
+}
+
+.terco img {
     max-width: 200px;
-    width: auto;
 }
 
 .rodape {
+    border-top: 1px solid rgb(65, 65, 65);
     background: #FFF;
     text-align: center;
     padding: 10px;
