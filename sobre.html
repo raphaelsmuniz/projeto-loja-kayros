@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/loja-kayros.ico" type="image/x-icon">
-    <title>Loja Kayrós</title>
-    <link rel="stylesheet" type="text/css" href="index-style.css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="img/loja-kayros.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,900&family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+        <title>Loja Kayrós</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="sobre-style.css" />
+      </head>
 <body>
     <header>
         <div class="cabecalho">
-            <h1 id="logo"><img src="./img/logo_kayros-140.png" alt="logoKayros"></h1>
+            <a href="index.html">
+                <img src="./img/logo_kayros-140.png" alt="logoKayros" />
+            </a>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="O que procuras?">
+                    <button>Enviar</button>
+                </form>
+            </div>
             <nav>
                 <ul>
                     <li> <a href="index.html">Início</a></li>
                     <li> <a href="sobre.html">Sobre</a></li>
                     <li> <a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="">Carrinho</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="container">
-            <h1>Quem somos...</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem error commodi, odio qui amet omnis officiis quae at esse. Aut, molestias eius? Ipsum dicta sint ad cupiditate eligendi illo?</p>
+        <section class="corpo">
+            <div>
+                <h1>Quem somos...</h1>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores doloremque vel exercitationem itaque similique possimus suscipit neque eaque recusandae. Aperiam provident voluptatem adipisci at est ab sit eligendi, nostrum facilis!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores doloremque vel exercitationem itaque similique possimus suscipit neque eaque recusandae. Aperiam provident voluptatem adipisci at est ab sit eligendi, nostrum facilis!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores doloremque vel exercitationem itaque similique possimus suscipit neque eaque recusandae. Aperiam provident voluptatem adipisci at est ab sit eligendi, nostrum facilis!</p>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="rodape">
-            <hr>
             <nav>
                 <ul>
                     <li> <a target="_blank" href="https://wa.me/47988192466">Contato</a></li>
