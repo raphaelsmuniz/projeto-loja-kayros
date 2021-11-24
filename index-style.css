@@ -10,7 +10,7 @@ a {
 }
 
 header {
-    background: #E0FFFF;
+    background: #98fafa;
 }
 
 .cabecalho {
@@ -19,12 +19,52 @@ header {
     width: 700px;
 }
 
-.cabecalho #logo {
-    /* width: 100px; */
-    height: 80px;
+.cabecalho img {
+    max-width: 100px;
+    width: auto;
 }
 
 .cabecalho li {
     font-size: 20px;
     list-style: none;
+}
+
+.container {
+    background: #E0FFFF;
+    display: flex;
+    align-items: baseline;
+    /* 9'47 - vídeo flexBox */
+}
+
+.container .links-livros #img-capa {
+    max-width: 200px;
+    width: auto;
+    /* justify-content: space-around; */
+}
+
+.container .links-livros span {
+    width: 100px;
+}
+
+.container .links-camis #img-capa {
+    max-width: 200px;
+    width: auto;
+}
+
+.container .links-tercos #img-capa {
+    max-width: 200px;
+    width: auto;
+}
+
+.rodape {
+    background: #FFF;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    font-size: 13px;
+}
+
+.rodape img {
+    max-width: 200px;
+    width: auto;    
 }
