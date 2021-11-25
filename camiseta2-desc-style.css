@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #5dc3e2;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.form input {
+    padding: 3px 6px;
+    text-align: center;
+    border: 1px solid #757575;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.form button {
+    padding: 3px 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #757575;
+    transition: 300ms;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.form button:hover {
+    background-color: #3f00d1;
+    color: #FFF;
+}
+
+.cabecalho ul {
+    display: flex;
+    width: 100%;
+}
+
+.cabecalho img {
+    max-width: 100px;
+    width: auto;
+}
+
+.cabecalho li {
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+}
+
+.cabecalho li a {
+    transition: 300ms;
+}
+
+.cabecalho li a:hover {
+    color: rgb(172, 15, 15);
+}
+
+.camiseta {
+    background: #a8ddf1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.itemCamiseta h2 {
+    border: 5px solid none;
+    margin: 5px;
+}
+
+.itemCamiseta h5 {
+    border: 5px solid none;
+    margin: 5px;
+}
+
+.itemCamiseta p {
+    padding: 3px;
+    max-width: 400px;
+    text-align: justify;
+}
+
+.itemCamiseta #comprar{
+    padding: 3px 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #757575;
+    transition: 300ms;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.itemCamiseta #comprar:hover {
+    background-color: #3f00d1;
+    color: #FFF;
+    padding: 5px;
+}
+
+.rodape {
+    border-top: 1px solid rgb(65, 65, 65);
+    background: #FFF;
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.rodape img {
+    max-width: 200px;
+    width: auto;    
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cabecalho ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    
+}
