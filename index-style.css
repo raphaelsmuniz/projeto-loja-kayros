@@ -68,16 +68,27 @@ header {
     color: rgb(172, 15, 15);
 }
 
-#filtro {
+.filtro {
     background: #a8ddf1;
 }
 
-#filtro a {
+.filtro h2 {
+    cursor: pointer;
+    color: blue;
     transition: 300ms;
 }
 
-#filtro a:hover {
+.filtro h2:hover {
     color: rgb(172, 15, 15);
+}
+
+.filtro input {
+    display: none;
+}
+
+#bt-livros:checked ~ .camiseta,
+#bt-livros:checked ~ .terco {
+    
 }
 
 .livro {
