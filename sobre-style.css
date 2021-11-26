@@ -20,6 +20,7 @@ header {
     align-items: center;
     padding: 5px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .form input {
@@ -74,6 +75,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .corpo div h1 {
@@ -81,9 +83,13 @@ header {
     padding: 20px;
 }
 
-.corpo div p {
+.corpo p {
+    padding: 1vh;
+    margin: auto;
     width: 1200px;
     text-justify: distribute;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .rodape {
@@ -93,6 +99,8 @@ header {
     padding: 10px;
     list-style: none;
     font-size: 13px;
+    display: block;
+    flex-wrap: wrap;
 }
 
 .rodape img {

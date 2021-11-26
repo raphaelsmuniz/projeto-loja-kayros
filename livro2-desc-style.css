@@ -20,6 +20,7 @@ header {
     align-items: center;
     padding: 5px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .form input {
@@ -72,6 +73,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .itemLivro h2 {
@@ -111,24 +113,12 @@ header {
     text-align: center;
     padding: 5px;
     list-style: none;
-    font-size: 15px;
+    font-size: 13px;
+    display: block;
+    flex-wrap: wrap;
 }
 
 .rodape img {
     max-width: 200px;
     width: auto;    
-}
-
-@media screen and (min-width: 768px) {
-    .form {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .cabecalho ul {
-        flex-direction: row;
-        width: 70%;
-    }
-
-    
 }
