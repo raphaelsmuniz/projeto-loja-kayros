@@ -55,9 +55,9 @@ header {
 }
 
 .cabecalho li {
-    font-size: 20px;
+    font-size: 17px;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 .cabecalho li a {
@@ -73,6 +73,7 @@ header {
 }
 
 #filtro a {
+    font-size: 20px;
     cursor: pointer;
     color: blue;
     transition: 300ms;

@@ -55,9 +55,9 @@ header {
 }
 
 .cabecalho li {
-    font-size: 20px;
+    font-size: 17px;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 .cabecalho li a {
@@ -74,6 +74,11 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.livro img {
+    max-width: 75%;
+    width: auto;
 }
 
 .itemLivro h2 {

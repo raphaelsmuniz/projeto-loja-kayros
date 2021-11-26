@@ -55,9 +55,9 @@ header {
 }
 
 .cabecalho li {
-    font-size: 20px;
+    font-size: 17px;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 .cabecalho li a {
@@ -68,13 +68,11 @@ header {
     color: rgb(172, 15, 15);
 }
 
-.corpo div {
+.corpo {
     background: #a8ddf1;
     margin: 0 auto;
-    height: 120px;
+    height: 420px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -84,12 +82,10 @@ header {
 }
 
 .corpo p {
-    padding: 1vh;
-    margin: auto;
-    width: 1200px;
-    text-justify: distribute;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 100%;
+    width: auto;
+    text-align: justify;
+    padding: 7px;
 }
 
 .rodape {
