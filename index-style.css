@@ -20,6 +20,7 @@ header {
     align-items: center;
     padding: 5px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .form input {
@@ -60,7 +61,6 @@ header {
 }
 
 .cabecalho li a {
-    /* display: inline-block; */
     transition: 300ms;
 }
 
@@ -68,27 +68,18 @@ header {
     color: rgb(172, 15, 15);
 }
 
-.filtro {
+#filtro {
     background: #a8ddf1;
 }
 
-.filtro h2 {
+#filtro a {
     cursor: pointer;
     color: blue;
     transition: 300ms;
 }
 
-.filtro h2:hover {
+#filtro a:hover {
     color: rgb(172, 15, 15);
-}
-
-.filtro input {
-    display: none;
-}
-
-#bt-livros:checked ~ .camiseta,
-#bt-livros:checked ~ .terco {
-    
 }
 
 .livro {
@@ -97,6 +88,7 @@ header {
     justify-content: space-evenly;
     padding: 5px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .livro div {
@@ -121,6 +113,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .camiseta div {
@@ -145,6 +138,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+    flex-wrap: wrap;
 }
 
 .terco div {
@@ -171,23 +165,11 @@ header {
     padding: 10px;
     list-style: none;
     font-size: 13px;
+    display: block;
+    flex-wrap: wrap;
 }
 
 .rodape img {
     max-width: 200px;
     width: auto;    
-}
-
-@media screen and (min-width: 768px) {
-    .form {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .cabecalho ul {
-        flex-direction: row;
-        width: 70%;
-    }
-
-    
 }
